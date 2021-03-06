@@ -3,7 +3,7 @@ const mysql = require('mysql');
 
 //Local
  module.exports = mysql.createPool({
-    host: 'localhosts',
+    host: 'localhost',
     port: '3306',
     user: 'root',
     password: '',
